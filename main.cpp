@@ -1,15 +1,22 @@
 #include <iostream>
 #include <string>
 
-// Project 3 — Your Name
-// Track: quiz | contacts | converters
-// CIS 5 Week 13
+// Struct lab — Your Name
+// CIS 5 Week 13 · Structs / classes lite
 
-void printMenu() {
+struct Student {
+  std::string name;
+  int id;
+  double gpa;
+};
+
+void printStudent(const Student& s) {
   // TODO
 }
 
 int main() {
-  // TODO: menu loop + helpers
+  const int N = 3;
+  Student class_list[N] = {};
+  // TODO: initialize, print all, filter gpa >= 3.0
   return 0;
 }
